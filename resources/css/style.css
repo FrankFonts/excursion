@@ -1,0 +1,17 @@
+:root {
+    --background-color: black;
+    --text-color: white;
+    --link-color: aquamarine;
+}
+
+html,
+body,
+* {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: var(--link-color);
+}
