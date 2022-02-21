@@ -1,3 +1,8 @@
+
+# ignore mac os file
 .DS_Store
+# ignore folders
+# without the trailing / all files AND folders
+# with matching names will be ignored
 F1U3P1_solution/
 other/
