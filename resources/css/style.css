@@ -1,7 +1,9 @@
 :root {
     --background-color: black;
     --text-color: white;
+    --text-color-2: grey;
     --link-color: aquamarine;
+    --margin-bottom: 40px;
 }
 
 html,
@@ -10,8 +12,49 @@ body,
     background-color: var(--background-color);
     color: var(--text-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 42px;
 }
 
 a {
+    display: block;
     color: var(--link-color);
+    text-decoration: underline;
+    margin-bottom: var(--margin-bottom);
+}
+
+a:hover {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin-bottom: var(--margin-bottom);
+}
+
+video {
+    margin-bottom: var(--margin-bottom);
+}
+
+.mobile-icon {
+    max-width: 64px;
+}
+
+p {
+    color: var(--text-color-2);
+    font-size: 21px;
 }
